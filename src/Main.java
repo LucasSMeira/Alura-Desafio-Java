@@ -23,5 +23,9 @@ public class Main {
         String mensagem = " O preço total é " + valorTotal;
         System.out.println(mensagem);
 
+        double valorEmDolares = 2.300;
+        double conversão = valorEmDolares * 4.94;
+        System.out.println("O valor convertido de dolar para real é " + conversão);
+
     }
 }
