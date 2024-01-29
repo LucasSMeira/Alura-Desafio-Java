@@ -27,5 +27,9 @@ public class Main {
         double conversão = valorEmDolares * 4.94;
         System.out.println("O valor convertido de dolar para real é " + conversão);
 
+        double precoOriginal = 325.15;
+        double percentalDeDesconto = 15;
+        double valorComDesconto = precoOriginal * (percentalDeDesconto/100) ;
+        System.out.println(precoOriginal - valorComDesconto);
     }
 }
