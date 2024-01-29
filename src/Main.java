@@ -15,5 +15,13 @@ public class Main {
                  A história começa com uma pedra que caiu e quebrou
                 """+letra+texto;
         System.out.println(historia);
+
+        double precoProduto = 69.9;
+        int quantidade = 7;
+
+        double valorTotal = precoProduto * quantidade;
+        String mensagem = " O preço total é " + valorTotal;
+        System.out.println(mensagem);
+
     }
 }
